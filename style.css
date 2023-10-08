@@ -40,6 +40,7 @@ body{
 }
 body{
 
+
 }
 .card:hover {
     background: rgba(255, 255, 255, 0.15); /* Adjust the alpha value for transparency on hover */
@@ -121,7 +122,7 @@ body::before {
 
 .col{
     display: flex;
-    align-items: center;
+    align-items:center;
     text-align: left;
     color: white;
     margin-top: -10px;
@@ -145,5 +146,5 @@ body::before {
 }
 
 .transitioning {
-    transition: all .5s ease;
+    transition: background 1s ease;
 }
