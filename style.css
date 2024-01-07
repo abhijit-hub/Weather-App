@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    transition: all 1s;
     
     
 }
@@ -14,6 +15,8 @@ body{
     background-image: url('images/pexels-johannes-plenio-1118873.jpg');
     background-size: cover;
     background-position: center;
+    transition: all 1s;
+
     background-attachment: fixed;
 
    
@@ -145,6 +148,6 @@ body::before {
     display: none;
 }
 
-.transitioning {
+/* .transitioning {
     transition: background 1s ease;
-}
+} */
