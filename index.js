@@ -57,4 +57,11 @@ searchBtn.addEventListener("click", () => {
 
 
 
+document.body.addEventListener("keypress", function(event) {
+    // Check if the pressed key is "Enter" (key code 13)
+        if(event.key=="Enter"){
+            document.getElementById("submitButton").click()
+        }
+})
+
 
