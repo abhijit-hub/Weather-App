@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s;
+    
+    
+}
+
+body{
+    /* background-image: url(images\pexels-johannes-plenio-1118873.jpg); */
+    /* background-size: cover; */
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url('images/pexels-johannes-plenio-1118873.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+
+    background-attachment: fixed;
+
+   
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    /* background: linear-gradient(to right, #3498db, #2980b9); */
+    background: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for transparency */
+    border-radius: 10px;
+    backdrop-filter: blur(15px); /* Adjust the blur value for a smoother effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adjust the alpha value for the border */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+    margin: 50px auto 0;
+    transition: all 0.4s ease; 
+    
+    
+
+}
+body{
+
+
+}
+.card:hover {
+    background: rgba(255, 255, 255, 0.15); /* Adjust the alpha value for transparency on hover */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4); /*Adjust the alpha value for the overlay*/
+    border-radius: 10px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+
+    outline: 0;
+    border: 0;
+    
+    background-color: wheat;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    height: 50px;
+    padding: 10px 25px;
+    color:#555;
+
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px ;
+}
+.search button img{
+
+    width: 25px;
+    
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.weather-icon{
+    margin-top:15px;
+}
+
+.weather h1{
+    font-size: 58px;
+    font-weight: 800;
+    font-weight: 400;
+    color: white;
+
+}
+ .weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    color: white;
+}
+
+.col{
+    display: flex;
+    align-items:center;
+    text-align: left;
+    color: white;
+    margin-top: -10px;
+     
+}
+.col p{
+    padding: 2px 10px;
+    font-weight: large;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 20px;
+
+}
+.weather{
+    display: none;
+}
+
+/* .transitioning {
+    transition: background 1s ease;
+} */

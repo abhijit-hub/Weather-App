@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "leetcode-query": "^0.2.7"
+  }
+}
